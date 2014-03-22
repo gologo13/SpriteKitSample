@@ -25,6 +25,8 @@
 		4706545718BCF17E0065B217 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4706542F18BCF17E0065B217 /* UIKit.framework */; };
 		4706545F18BCF17E0065B217 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4706545D18BCF17E0065B217 /* InfoPlist.strings */; };
 		4706546118BCF17E0065B217 /* SpriteKitSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4706546018BCF17E0065B217 /* SpriteKitSampleTests.m */; };
+		474AD6F118DD8C02003F4E0D /* GLButtonNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 474AD6F018DD8C02003F4E0D /* GLButtonNode.m */; };
+		47B4A03018DC6D3800AF22BC /* GLHae.m in Sources */ = {isa = PBXBuildFile; fileRef = 47B4A02F18DC6D3800AF22BC /* GLHae.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,10 @@
 		4706545C18BCF17E0065B217 /* SpriteKitSampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SpriteKitSampleTests-Info.plist"; sourceTree = "<group>"; };
 		4706545E18BCF17E0065B217 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4706546018BCF17E0065B217 /* SpriteKitSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpriteKitSampleTests.m; sourceTree = "<group>"; };
+		474AD6EF18DD8C02003F4E0D /* GLButtonNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLButtonNode.h; sourceTree = "<group>"; };
+		474AD6F018DD8C02003F4E0D /* GLButtonNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLButtonNode.m; sourceTree = "<group>"; };
+		47B4A02E18DC6D3800AF22BC /* GLHae.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLHae.h; sourceTree = "<group>"; };
+		47B4A02F18DC6D3800AF22BC /* GLHae.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GLHae.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,14 +131,18 @@
 			children = (
 				4706543C18BCF17E0065B217 /* GLAppDelegate.h */,
 				4706543D18BCF17E0065B217 /* GLAppDelegate.m */,
-				4706543F18BCF17E0065B217 /* Main_iPhone.storyboard */,
-				4706544218BCF17E0065B217 /* Main_iPad.storyboard */,
-				4706544518BCF17E0065B217 /* GLViewController.h */,
-				4706544618BCF17E0065B217 /* GLViewController.m */,
+				474AD6EF18DD8C02003F4E0D /* GLButtonNode.h */,
+				474AD6F018DD8C02003F4E0D /* GLButtonNode.m */,
+				47B4A02E18DC6D3800AF22BC /* GLHae.h */,
+				47B4A02F18DC6D3800AF22BC /* GLHae.m */,
 				4706544818BCF17E0065B217 /* GLMyScene.h */,
 				4706544918BCF17E0065B217 /* GLMyScene.m */,
-				4706544B18BCF17E0065B217 /* Spaceship.png */,
+				4706544518BCF17E0065B217 /* GLViewController.h */,
+				4706544618BCF17E0065B217 /* GLViewController.m */,
 				4706544D18BCF17E0065B217 /* Images.xcassets */,
+				4706544218BCF17E0065B217 /* Main_iPad.storyboard */,
+				4706543F18BCF17E0065B217 /* Main_iPhone.storyboard */,
+				4706544B18BCF17E0065B217 /* Spaceship.png */,
 				4706543418BCF17E0065B217 /* Supporting Files */,
 			);
 			path = SpriteKitSample;
@@ -268,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4706543A18BCF17E0065B217 /* main.m in Sources */,
+				47B4A03018DC6D3800AF22BC /* GLHae.m in Sources */,
 				4706544A18BCF17E0065B217 /* GLMyScene.m in Sources */,
 				4706544718BCF17E0065B217 /* GLViewController.m in Sources */,
+				474AD6F118DD8C02003F4E0D /* GLButtonNode.m in Sources */,
 				4706543E18BCF17E0065B217 /* GLAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -491,6 +503,7 @@
 				4706546618BCF17E0065B217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4706546718BCF17E0065B217 /* Build configuration list for PBXNativeTarget "SpriteKitSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +512,7 @@
 				4706546918BCF17E0065B217 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
